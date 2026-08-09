@@ -41,3 +41,7 @@ console.log(url.includes('32'));
 const str1 = "tarun-kumar-rajput"
 
 console.log(str1.split('-'));
+
+const str = "hello"
+const reverseStr = str.split("").reverse().join("");
+console.log(reverseStr)
